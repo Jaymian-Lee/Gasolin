@@ -1,0 +1,10 @@
+D:\repositories\Gasolin\Gasolin\bin\Debug\Gasolin.exe.config
+D:\repositories\Gasolin\Gasolin\bin\Debug\Gasolin.exe
+D:\repositories\Gasolin\Gasolin\bin\Debug\Gasolin.pdb
+D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.csproj.AssemblyReference.cache
+D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.Properties.Resources.resources
+D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.csproj.GenerateResource.cache
+D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.csproj.CoreCompileInputs.cache
+D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.exe
+D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.pdb
+D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.Landing.resources
