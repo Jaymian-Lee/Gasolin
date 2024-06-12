@@ -8,3 +8,7 @@ D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.csproj.CoreCompileInputs.cache
 D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.exe
 D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.pdb
 D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.Landing.resources
+D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.forms.AddPerson.resources
+D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.forms.CarsForm.resources
+D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.forms.PersonForm.resources
+D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.forms.RefuelingForm.resources

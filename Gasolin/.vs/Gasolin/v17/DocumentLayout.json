@@ -3,11 +3,43 @@
   "WorkspaceRootPath": "D:\\repositories\\Gasolin\\Gasolin\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\landing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:landing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\landing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:landing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\carsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\carsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\carsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\carsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\personform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\personform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\addperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\addperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\addperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\addperson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\personform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\personform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\landing.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:landing.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|D:\\repositories\\Gasolin\\Gasolin\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +82,120 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Landing.cs",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\Landing.cs",
+              "RelativeDocumentMoniker": "Landing.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\Landing.cs",
+              "RelativeToolTip": "Landing.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwBYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T14:40:41.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PersonForm.cs",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\PersonForm.cs",
+              "RelativeDocumentMoniker": "forms\\PersonForm.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\PersonForm.cs",
+              "RelativeToolTip": "forms\\PersonForm.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T14:38:27.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddPerson.cs",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddPerson.cs",
+              "RelativeDocumentMoniker": "forms\\AddPerson.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddPerson.cs",
+              "RelativeToolTip": "forms\\AddPerson.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwBcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T14:10:07.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddPerson.cs [Design]",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddPerson.cs",
+              "RelativeDocumentMoniker": "forms\\AddPerson.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddPerson.cs [Design]",
+              "RelativeToolTip": "forms\\AddPerson.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:46:28.251Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PersonForm.cs [Design]",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\PersonForm.cs",
+              "RelativeDocumentMoniker": "forms\\PersonForm.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\PersonForm.cs [Design]",
+              "RelativeToolTip": "forms\\PersonForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:41:48.771Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarsForm.cs",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\CarsForm.cs",
+              "RelativeDocumentMoniker": "forms\\CarsForm.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\CarsForm.cs",
+              "RelativeToolTip": "forms\\CarsForm.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:37:15.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarsForm.cs [Design]",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\CarsForm.cs",
+              "RelativeDocumentMoniker": "forms\\CarsForm.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\CarsForm.cs [Design]",
+              "RelativeToolTip": "forms\\CarsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:36:44.517Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Landing.cs [Design]",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\Landing.cs",
+              "RelativeDocumentMoniker": "Landing.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\Landing.cs [Design]",
+              "RelativeToolTip": "Landing.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T08:20:05.242Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Landing.Designer.cs",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\Landing.Designer.cs",
+              "RelativeDocumentMoniker": "Landing.Designer.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\Landing.Designer.cs",
+              "RelativeToolTip": "Landing.Designer.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAA4wBMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T13:26:44.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "DAL.cs",
               "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\DAL.cs",
               "RelativeDocumentMoniker": "DAL.cs",
@@ -58,20 +203,7 @@
               "RelativeToolTip": "DAL.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T08:27:34.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Landing.cs [Design]",
-              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\Landing.cs",
-              "RelativeDocumentMoniker": "Landing.cs",
-              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\Landing.cs [Design]*",
-              "RelativeToolTip": "Landing.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T08:20:05.242Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-06-03T08:27:34.9Z"
             }
           ]
         },

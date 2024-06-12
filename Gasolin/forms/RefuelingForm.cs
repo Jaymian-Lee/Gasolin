@@ -1,5 +1,4 @@
-﻿using Gasolin.forms;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,20 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Gasolin
+namespace Gasolin.forms
 {
-    public partial class Landing : Form
+    public partial class RefuelingForm : Form
     {
-        public Landing()
+        public RefuelingForm()
         {
             InitializeComponent();
         }
 
         private void btnPerson_Click(object sender, EventArgs e)
         {
-            this.Hide();
             PersonForm personForm = new PersonForm();
             personForm.Show();
+            Close();
+
         }
 
         private void btnCars_Click(object sender, EventArgs e)

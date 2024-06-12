@@ -47,6 +47,30 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL.cs" />
+    <Compile Include="forms\AddPerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\AddPerson.Designer.cs">
+      <DependentUpon>AddPerson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\CarsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\CarsForm.Designer.cs">
+      <DependentUpon>CarsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\PersonForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\PersonForm.Designer.cs">
+      <DependentUpon>PersonForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\RefuelingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\RefuelingForm.Designer.cs">
+      <DependentUpon>RefuelingForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Landing.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +79,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="forms\AddPerson.resx">
+      <DependentUpon>AddPerson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\CarsForm.resx">
+      <DependentUpon>CarsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\PersonForm.resx">
+      <DependentUpon>PersonForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\RefuelingForm.resx">
+      <DependentUpon>RefuelingForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Landing.resx">
       <DependentUpon>Landing.cs</DependentUpon>
     </EmbeddedResource>
