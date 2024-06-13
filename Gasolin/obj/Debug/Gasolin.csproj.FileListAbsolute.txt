@@ -12,3 +12,6 @@ D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.forms.AddPerson.resources
 D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.forms.CarsForm.resources
 D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.forms.PersonForm.resources
 D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.forms.RefuelingForm.resources
+D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.forms.ChangePerson.resources
+D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.forms.AddCars.resources
+D:\repositories\Gasolin\Gasolin\obj\Debug\Gasolin.forms.ChangeCars.resources

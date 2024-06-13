@@ -91,6 +91,7 @@
             this.lstCars.Size = new System.Drawing.Size(253, 262);
             this.lstCars.TabIndex = 15;
             this.lstCars.UseCompatibleStateImageBehavior = false;
+            this.lstCars.SelectedIndexChanged += new System.EventHandler(this.lstCars_SelectedIndexChanged);
             // 
             // lstPerson
             // 
@@ -101,6 +102,7 @@
             this.lstPerson.Size = new System.Drawing.Size(253, 262);
             this.lstPerson.TabIndex = 14;
             this.lstPerson.UseCompatibleStateImageBehavior = false;
+            this.lstPerson.SelectedIndexChanged += new System.EventHandler(this.lstPerson_SelectedIndexChanged);
             // 
             // btnTank
             // 
@@ -111,6 +113,7 @@
             this.btnTank.TabIndex = 13;
             this.btnTank.Text = "Tankbeurt";
             this.btnTank.UseVisualStyleBackColor = true;
+            this.btnTank.Click += new System.EventHandler(this.btnTank_Click_1);
             // 
             // btnCars
             // 
@@ -121,6 +124,7 @@
             this.btnCars.TabIndex = 12;
             this.btnCars.Text = "Auto\'s";
             this.btnCars.UseVisualStyleBackColor = true;
+            this.btnCars.Click += new System.EventHandler(this.btnCars_Click_1);
             // 
             // btnPerson
             // 

@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL.cs" />
+    <Compile Include="forms\AddCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\AddCars.Designer.cs">
+      <DependentUpon>AddCars.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\AddPerson.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +64,18 @@
     </Compile>
     <Compile Include="forms\CarsForm.Designer.cs">
       <DependentUpon>CarsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\ChangeCars.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\ChangeCars.Designer.cs">
+      <DependentUpon>ChangeCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\ChangePerson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\ChangePerson.Designer.cs">
+      <DependentUpon>ChangePerson.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\PersonForm.cs">
       <SubType>Form</SubType>
@@ -77,13 +95,27 @@
     <Compile Include="Landing.Designer.cs">
       <DependentUpon>Landing.cs</DependentUpon>
     </Compile>
+    <Compile Include="models\FuelType.cs" />
+    <Compile Include="models\Person.cs" />
+    <Compile Include="models\Refuel.cs" />
+    <Compile Include="models\Vehicle.cs" />
+    <Compile Include="models\VehicleType.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="forms\AddCars.resx">
+      <DependentUpon>AddCars.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\AddPerson.resx">
       <DependentUpon>AddPerson.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\CarsForm.resx">
       <DependentUpon>CarsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\ChangeCars.resx">
+      <DependentUpon>ChangeCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\ChangePerson.resx">
+      <DependentUpon>ChangePerson.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\PersonForm.resx">
       <DependentUpon>PersonForm.cs</DependentUpon>
@@ -119,5 +151,6 @@
   <ItemGroup>
     <Content Include="assets\Gasolin Logo.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

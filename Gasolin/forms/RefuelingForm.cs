@@ -43,5 +43,10 @@ namespace Gasolin.forms
             landing.Show();
             Close();
         }
+
+        private void lstPeople_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

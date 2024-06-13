@@ -53,6 +53,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 28;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // txtGivenName
             // 
@@ -60,6 +61,7 @@
             this.txtGivenName.Name = "txtGivenName";
             this.txtGivenName.Size = new System.Drawing.Size(157, 22);
             this.txtGivenName.TabIndex = 1;
+            this.txtGivenName.TextChanged += new System.EventHandler(this.txtGivenName_TextChanged);
             // 
             // txtBirthdate
             // 
@@ -67,6 +69,7 @@
             this.txtBirthdate.Name = "txtBirthdate";
             this.txtBirthdate.Size = new System.Drawing.Size(336, 22);
             this.txtBirthdate.TabIndex = 2;
+            this.txtBirthdate.TextChanged += new System.EventHandler(this.txtBirthdate_TextChanged);
             // 
             // txtDriverLicenceDate
             // 
@@ -74,6 +77,7 @@
             this.txtDriverLicenceDate.Name = "txtDriverLicenceDate";
             this.txtDriverLicenceDate.Size = new System.Drawing.Size(336, 22);
             this.txtDriverLicenceDate.TabIndex = 3;
+            this.txtDriverLicenceDate.TextChanged += new System.EventHandler(this.txtDriverLicenceDate_TextChanged);
             // 
             // label1
             // 
@@ -90,6 +94,7 @@
             this.txtFamilyName.Name = "txtFamilyName";
             this.txtFamilyName.Size = new System.Drawing.Size(157, 22);
             this.txtFamilyName.TabIndex = 32;
+            this.txtFamilyName.TextChanged += new System.EventHandler(this.txtFamilyName_TextChanged);
             // 
             // label2
             // 
@@ -114,9 +119,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(69, 299);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(101, 16);
+            this.label4.Size = new System.Drawing.Size(150, 16);
             this.label4.TabIndex = 35;
-            this.label4.Text = "Geboortedatum";
+            this.label4.Text = "Datum rijbewijs behaald";
             // 
             // btnClose1
             // 

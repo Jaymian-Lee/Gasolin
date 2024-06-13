@@ -79,6 +79,7 @@
             this.lstPeople.Size = new System.Drawing.Size(558, 262);
             this.lstPeople.TabIndex = 31;
             this.lstPeople.UseCompatibleStateImageBehavior = false;
+            this.lstPeople.SelectedIndexChanged += new System.EventHandler(this.lstPeople_SelectedIndexChanged);
             // 
             // btnTank
             // 
