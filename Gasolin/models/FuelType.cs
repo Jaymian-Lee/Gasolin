@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Gasolin.models
 {
@@ -11,10 +7,26 @@ namespace Gasolin.models
         public int Id { get; set; }
         public string Description { get; set; }
 
-        public FuelType(int id, string description)
+        public void Save()
         {
-            Id = id;
-            Description = description;
+            if (Id == 0)
+            {
+                DAL.AddFuelType(this);
+            }
+            else
+            {
+                DAL.UpdateFuelType(this);
+            }
+        }
+
+        public void Delete()
+        {
+            DAL.DeleteFuelType(Id);
+        }
+
+        public static List<FuelType> GetAll()
+        {
+            return DAL.GetAllFuelTypes();
         }
     }
 }

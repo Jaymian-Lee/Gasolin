@@ -15,7 +15,8 @@ namespace Gasolin.models
         public int PersonId { get; set; }
         public Person PersonThatRefueled { get; set; }
 
-        // Aangepaste constructor die de juiste VehicleId en PersonId accepteert
+        public Refuel() { }
+
         public Refuel(int id, DateTime timeStamp, int liters, int currentKm, decimal amountEuro, int vehicleId, int personId)
         {
             Id = id;
@@ -31,13 +32,24 @@ namespace Gasolin.models
 
         public void Save()
         {
-            DAL.AddRefuel(this);
+            if (Id == 0)
+            {
+                DAL.AddRefuel(this);
+            }
+            else
+            {
+                // Update logic here if needed
+            }
+        }
+
+        public void Delete()
+        {
+            DAL.DeleteRefuel(Id);
         }
 
         public static List<Refuel> GetAll()
         {
             return DAL.GetAllRefuels();
         }
-
     }
 }

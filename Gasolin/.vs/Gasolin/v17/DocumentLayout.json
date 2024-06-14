@@ -3,24 +3,64 @@
   "WorkspaceRootPath": "D:\\repositories\\Gasolin\\Gasolin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\changerefueling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\changerefueling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\addrefueling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\addrefueling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\refuelingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\refuelingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:dal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\models\\refuel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\refuelingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\refuelingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\refuelingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\refuelingform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\refuelingform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\refuelingform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|D:\\repositories\\Gasolin\\Gasolin\\models\\refuel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:models\\refuel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\models\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:models\\vehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\models\\fueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:models\\fueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\addfueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\addfueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\changerefueling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\changerefueling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\addfueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\addfueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\addrefueling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\addrefueling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\addvehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\addvehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\addvehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\addvehicletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|d:\\repositories\\gasolin\\gasolin\\forms\\addrefueling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AB4A17C1-3427-41D4-9190-D690CCC8C61A}|Gasolin.csproj|solutionrelative:forms\\addrefueling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,55 +102,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DAL.cs",
-              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\DAL.cs",
-              "RelativeDocumentMoniker": "DAL.cs",
-              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\DAL.cs",
-              "RelativeToolTip": "DAL.cs",
-              "ViewState": "AQIAACQBAAAAAAAAAAAiwD0BAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\models\\Person.cs",
+              "RelativeDocumentMoniker": "models\\Person.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\models\\Person.cs",
+              "RelativeToolTip": "models\\Person.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T09:28:23.57Z",
+              "WhenOpened": "2024-06-14T14:32:16.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Refuel.cs",
-              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\models\\Refuel.cs",
-              "RelativeDocumentMoniker": "models\\Refuel.cs",
-              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\models\\Refuel.cs",
-              "RelativeToolTip": "models\\Refuel.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAUwCUAAAAJAAAA",
+              "Title": "RefuelingForm.Designer.cs",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\RefuelingForm.Designer.cs",
+              "RelativeDocumentMoniker": "forms\\RefuelingForm.Designer.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\RefuelingForm.Designer.cs",
+              "RelativeToolTip": "forms\\RefuelingForm.Designer.cs",
+              "ViewState": "AQIAAGgAAAAAAAAAAADwv3kAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T09:25:37.057Z",
+              "WhenOpened": "2024-06-14T14:06:42.511Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ChangeRefueling.cs",
-              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\ChangeRefueling.cs",
-              "RelativeDocumentMoniker": "forms\\ChangeRefueling.cs",
-              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\ChangeRefueling.cs",
-              "RelativeToolTip": "forms\\ChangeRefueling.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAQwB8AAAAJAAAA",
+              "DocumentIndex": 7,
+              "Title": "FuelType.cs",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\models\\FuelType.cs",
+              "RelativeDocumentMoniker": "models\\FuelType.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\models\\FuelType.cs",
+              "RelativeToolTip": "models\\FuelType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T09:22:39.687Z",
+              "WhenOpened": "2024-06-14T13:57:22.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddRefueling.cs",
-              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddRefueling.cs",
-              "RelativeDocumentMoniker": "forms\\AddRefueling.cs",
-              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddRefueling.cs",
-              "RelativeToolTip": "forms\\AddRefueling.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAqwDQAAAAJAAAA",
+              "DocumentIndex": 6,
+              "Title": "VehicleType.cs",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\models\\VehicleType.cs",
+              "RelativeDocumentMoniker": "models\\VehicleType.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\models\\VehicleType.cs",
+              "RelativeToolTip": "models\\VehicleType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T09:22:29.123Z",
+              "WhenOpened": "2024-06-14T13:55:36.956Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AddFuelType.cs",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddFuelType.cs",
+              "RelativeDocumentMoniker": "forms\\AddFuelType.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddFuelType.cs",
+              "RelativeToolTip": "forms\\AddFuelType.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:12:54.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RefuelingForm.cs [Design]",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\RefuelingForm.cs",
+              "RelativeDocumentMoniker": "forms\\RefuelingForm.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\RefuelingForm.cs [Design]",
+              "RelativeToolTip": "forms\\RefuelingForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T12:52:49.909Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -120,10 +185,110 @@
               "RelativeDocumentMoniker": "forms\\RefuelingForm.cs",
               "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\RefuelingForm.cs",
               "RelativeToolTip": "forms\\RefuelingForm.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAowEgAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T09:22:18.7Z",
+              "WhenOpened": "2024-06-14T13:00:26.427Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DAL.cs",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\DAL.cs",
+              "RelativeDocumentMoniker": "DAL.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\DAL.cs",
+              "RelativeToolTip": "DAL.cs",
+              "ViewState": "AQIAAJwBAAAAAAAAAAAAAAkBAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:15:17.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Refuel.cs",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\models\\Refuel.cs",
+              "RelativeDocumentMoniker": "models\\Refuel.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\models\\Refuel.cs",
+              "RelativeToolTip": "models\\Refuel.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAiwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T09:25:37.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ChangeRefueling.cs [Design]",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\ChangeRefueling.cs",
+              "RelativeDocumentMoniker": "forms\\ChangeRefueling.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\ChangeRefueling.cs [Design]",
+              "RelativeToolTip": "forms\\ChangeRefueling.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T12:52:52.227Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddFuelType.cs [Design]",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddFuelType.cs",
+              "RelativeDocumentMoniker": "forms\\AddFuelType.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddFuelType.cs [Design]",
+              "RelativeToolTip": "forms\\AddFuelType.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:01:31.553Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddVehicleType.cs [Design]",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddVehicleType.cs",
+              "RelativeDocumentMoniker": "forms\\AddVehicleType.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddVehicleType.cs [Design]",
+              "RelativeToolTip": "forms\\AddVehicleType.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:08:09.41Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddVehicleType.cs",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddVehicleType.cs",
+              "RelativeDocumentMoniker": "forms\\AddVehicleType.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddVehicleType.cs",
+              "RelativeToolTip": "forms\\AddVehicleType.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAuwC0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T13:12:22.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddRefueling.cs",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddRefueling.cs",
+              "RelativeDocumentMoniker": "forms\\AddRefueling.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddRefueling.cs",
+              "RelativeToolTip": "forms\\AddRefueling.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAcwEAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T12:55:07.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddRefueling.cs [Design]",
+              "DocumentMoniker": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddRefueling.cs",
+              "RelativeDocumentMoniker": "forms\\AddRefueling.cs",
+              "ToolTip": "D:\\repositories\\Gasolin\\Gasolin\\forms\\AddRefueling.cs [Design]",
+              "RelativeToolTip": "forms\\AddRefueling.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T12:52:55.932Z",
+              "EditorCaption": " [Design]"
             }
           ]
         },

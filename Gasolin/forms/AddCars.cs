@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 using Gasolin.models;
 
@@ -9,20 +10,15 @@ namespace Gasolin.forms
         public AddCars()
         {
             InitializeComponent();
+            LoadVehicleTypes();
         }
 
-        private void btnClose1_Click_1(object sender, EventArgs e)
+        private void LoadVehicleTypes()
         {
-            CarsForm carsForm = new CarsForm();
-            carsForm.Show();
-            this.Close();
-        }
-
-        private void btnClose2_Click_1(object sender, EventArgs e)
-        {
-            CarsForm carsForm = new CarsForm();
-            carsForm.Show();
-            this.Close();
+            List<VehicleType> vehicleTypes = VehicleType.GetAll();
+            cmbVehicleType.DataSource = vehicleTypes;
+            cmbVehicleType.DisplayMember = "Description";
+            cmbVehicleType.ValueMember = "Id";
         }
 
         private void btnSave_Click_1(object sender, EventArgs e)
@@ -33,7 +29,6 @@ namespace Gasolin.forms
             DateTime parsedSaleDate = DateTime.MinValue; // Initialize parsedSaleDate here
             int initialKm;
             int active;
-            string fuel;
 
             if (!int.TryParse(txtConstructionDate.Text, out constructionYear))
             {
@@ -79,7 +74,7 @@ namespace Gasolin.forms
             {
                 LicensePlate = txtLicensePlate.Text,
                 Description = txtDescription.Text,
-                Type = txtCarType.Text,
+                Type = cmbVehicleType.SelectedValue.ToString(), // Gebruik het geselecteerde voertuigtype
                 ConstructionYear = constructionYear,
                 PurchaseDate = purchaseDate,
                 InitialKm = initialKm,
@@ -94,6 +89,24 @@ namespace Gasolin.forms
             CarsForm carsForm = new CarsForm();
             carsForm.Show();
             this.Close();
+        }
+
+        private void btnClose1_Click_1(object sender, EventArgs e)
+        {
+            CarsForm carsForm1 = new CarsForm();
+            carsForm1.Show();
+            this.Hide();
+        }
+        private void btnClose2_Click_1(object sender, EventArgs e)
+        {
+            CarsForm carsForm1 = new CarsForm();
+            carsForm1.Show();
+            this.Hide();
+        }
+
+        private void cmbVehicleType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

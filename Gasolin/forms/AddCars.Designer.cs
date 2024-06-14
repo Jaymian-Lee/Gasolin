@@ -52,11 +52,11 @@
             this.txtLicensePlate = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtConstructionDate = new System.Windows.Forms.TextBox();
-            this.txtCarType = new System.Windows.Forms.TextBox();
             this.txtDescription = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.txtBrand = new System.Windows.Forms.TextBox();
+            this.cmbVehicleType = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -255,13 +255,6 @@
             this.txtConstructionDate.Size = new System.Drawing.Size(160, 22);
             this.txtConstructionDate.TabIndex = 1041;
             // 
-            // txtCarType
-            // 
-            this.txtCarType.Location = new System.Drawing.Point(258, 253);
-            this.txtCarType.Name = "txtCarType";
-            this.txtCarType.Size = new System.Drawing.Size(155, 22);
-            this.txtCarType.TabIndex = 1040;
-            // 
             // txtDescription
             // 
             this.txtDescription.Location = new System.Drawing.Point(77, 195);
@@ -295,12 +288,24 @@
             this.txtBrand.Size = new System.Drawing.Size(155, 22);
             this.txtBrand.TabIndex = 3;
             // 
+            // cmbVehicleType
+            // 
+            this.cmbVehicleType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbVehicleType.FormattingEnabled = true;
+            this.cmbVehicleType.Location = new System.Drawing.Point(258, 253);
+            this.cmbVehicleType.Name = "cmbVehicleType";
+            this.cmbVehicleType.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.cmbVehicleType.Size = new System.Drawing.Size(155, 24);
+            this.cmbVehicleType.TabIndex = 1067;
+            this.cmbVehicleType.SelectedIndexChanged += new System.EventHandler(this.cmbVehicleType_SelectedIndexChanged);
+            // 
             // AddCars
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(246)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(883, 497);
+            this.Controls.Add(this.cmbVehicleType);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.txtBrand);
             this.Controls.Add(this.label10);
@@ -326,7 +331,6 @@
             this.Controls.Add(this.txtLicensePlate);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtConstructionDate);
-            this.Controls.Add(this.txtCarType);
             this.Controls.Add(this.txtDescription);
             this.Controls.Add(this.pictureBox1);
             this.Name = "AddCars";
@@ -362,10 +366,10 @@
         private System.Windows.Forms.TextBox txtLicensePlate;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtConstructionDate;
-        private System.Windows.Forms.TextBox txtCarType;
         private System.Windows.Forms.TextBox txtDescription;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox txtBrand;
+        private System.Windows.Forms.ComboBox cmbVehicleType;
     }
 }

@@ -37,6 +37,12 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnRemove = new System.Windows.Forms.Button();
             this.CarsButton = new System.Windows.Forms.Button();
+            this.lstVehicleType = new System.Windows.Forms.ListView();
+            this.btnRemoveVehicleType = new System.Windows.Forms.Button();
+            this.btnChangeVehicleType = new System.Windows.Forms.Button();
+            this.btnAddVehicleType = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,14 +52,14 @@
             this.lstCars.HideSelection = false;
             this.lstCars.Location = new System.Drawing.Point(12, 176);
             this.lstCars.Name = "lstCars";
-            this.lstCars.Size = new System.Drawing.Size(558, 262);
+            this.lstCars.Size = new System.Drawing.Size(422, 262);
             this.lstCars.TabIndex = 15;
             this.lstCars.UseCompatibleStateImageBehavior = false;
             // 
             // btnTank
             // 
             this.btnTank.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTank.Location = new System.Drawing.Point(630, 48);
+            this.btnTank.Location = new System.Drawing.Point(767, 48);
             this.btnTank.Name = "btnTank";
             this.btnTank.Size = new System.Drawing.Size(136, 54);
             this.btnTank.TabIndex = 13;
@@ -64,7 +70,7 @@
             // btnPerson
             // 
             this.btnPerson.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPerson.Location = new System.Drawing.Point(346, 48);
+            this.btnPerson.Location = new System.Drawing.Point(483, 48);
             this.btnPerson.Name = "btnPerson";
             this.btnPerson.Size = new System.Drawing.Size(136, 54);
             this.btnPerson.TabIndex = 11;
@@ -86,7 +92,7 @@
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(630, 176);
+            this.btnAdd.Location = new System.Drawing.Point(465, 176);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(136, 54);
             this.btnAdd.TabIndex = 16;
@@ -97,7 +103,7 @@
             // btnUpdate
             // 
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(630, 236);
+            this.btnUpdate.Location = new System.Drawing.Point(465, 236);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(136, 54);
             this.btnUpdate.TabIndex = 17;
@@ -108,7 +114,7 @@
             // btnRemove
             // 
             this.btnRemove.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRemove.Location = new System.Drawing.Point(630, 296);
+            this.btnRemove.Location = new System.Drawing.Point(465, 296);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(136, 54);
             this.btnRemove.TabIndex = 18;
@@ -119,7 +125,7 @@
             // CarsButton
             // 
             this.CarsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CarsButton.Location = new System.Drawing.Point(488, 48);
+            this.CarsButton.Location = new System.Drawing.Point(625, 48);
             this.CarsButton.Name = "CarsButton";
             this.CarsButton.Size = new System.Drawing.Size(136, 54);
             this.CarsButton.TabIndex = 20;
@@ -127,12 +133,80 @@
             this.CarsButton.UseVisualStyleBackColor = true;
             this.CarsButton.Click += new System.EventHandler(this.CarsButton_Click);
             // 
+            // lstVehicleType
+            // 
+            this.lstVehicleType.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lstVehicleType.HideSelection = false;
+            this.lstVehicleType.Location = new System.Drawing.Point(625, 176);
+            this.lstVehicleType.Name = "lstVehicleType";
+            this.lstVehicleType.Size = new System.Drawing.Size(141, 262);
+            this.lstVehicleType.TabIndex = 21;
+            this.lstVehicleType.UseCompatibleStateImageBehavior = false;
+            this.lstVehicleType.SelectedIndexChanged += new System.EventHandler(this.lstVehicleType_SelectedIndexChanged);
+            // 
+            // btnRemoveVehicleType
+            // 
+            this.btnRemoveVehicleType.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRemoveVehicleType.Location = new System.Drawing.Point(792, 296);
+            this.btnRemoveVehicleType.Name = "btnRemoveVehicleType";
+            this.btnRemoveVehicleType.Size = new System.Drawing.Size(136, 54);
+            this.btnRemoveVehicleType.TabIndex = 24;
+            this.btnRemoveVehicleType.Text = "Verwijder";
+            this.btnRemoveVehicleType.UseVisualStyleBackColor = true;
+            this.btnRemoveVehicleType.Click += new System.EventHandler(this.btnRemoveVehicleType_Click);
+            // 
+            // btnChangeVehicleType
+            // 
+            this.btnChangeVehicleType.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChangeVehicleType.Location = new System.Drawing.Point(792, 236);
+            this.btnChangeVehicleType.Name = "btnChangeVehicleType";
+            this.btnChangeVehicleType.Size = new System.Drawing.Size(136, 54);
+            this.btnChangeVehicleType.TabIndex = 23;
+            this.btnChangeVehicleType.Text = "Aanpassen";
+            this.btnChangeVehicleType.UseVisualStyleBackColor = true;
+            this.btnChangeVehicleType.Click += new System.EventHandler(this.btnChangeVehicleType_Click);
+            // 
+            // btnAddVehicleType
+            // 
+            this.btnAddVehicleType.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddVehicleType.Location = new System.Drawing.Point(792, 176);
+            this.btnAddVehicleType.Name = "btnAddVehicleType";
+            this.btnAddVehicleType.Size = new System.Drawing.Size(136, 54);
+            this.btnAddVehicleType.TabIndex = 22;
+            this.btnAddVehicleType.Text = "Voeg toe";
+            this.btnAddVehicleType.UseVisualStyleBackColor = true;
+            this.btnAddVehicleType.Click += new System.EventHandler(this.btnAddVehicleType_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 154);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(72, 16);
+            this.label1.TabIndex = 25;
+            this.label1.Text = "Voertuigen";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(622, 154);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(93, 16);
+            this.label2.TabIndex = 26;
+            this.label2.Text = "Voertuig types";
+            // 
             // CarsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(246)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(951, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnRemoveVehicleType);
+            this.Controls.Add(this.btnChangeVehicleType);
+            this.Controls.Add(this.btnAddVehicleType);
+            this.Controls.Add(this.lstVehicleType);
             this.Controls.Add(this.CarsButton);
             this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.btnUpdate);
@@ -146,6 +220,7 @@
             this.Text = "Cars";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -159,5 +234,11 @@
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnRemove;
         private System.Windows.Forms.Button CarsButton;
+        private System.Windows.Forms.ListView lstVehicleType;
+        private System.Windows.Forms.Button btnRemoveVehicleType;
+        private System.Windows.Forms.Button btnChangeVehicleType;
+        private System.Windows.Forms.Button btnAddVehicleType;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

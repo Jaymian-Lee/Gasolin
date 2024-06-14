@@ -13,7 +13,10 @@ namespace Gasolin.forms
             InitializeComponent();
             InitializeListView();
             LoadRefuels();
+            InitializeListViewFuelTypes();
+            LoadFuelTypes();
         }
+
         private void InitializeListView()
         {
             lstRefuels.View = View.Details;
@@ -29,6 +32,7 @@ namespace Gasolin.forms
             lstRefuels.Columns.Add("LicensePlate", 100);
             lstRefuels.Columns.Add("Person", 150);
         }
+
         private void LoadRefuels()
         {
             List<Refuel> refuels = Refuel.GetAll();
@@ -44,6 +48,30 @@ namespace Gasolin.forms
                 item.SubItems.Add(refuel.RefueledVehicle.LicensePlate);
                 item.SubItems.Add(refuel.PersonThatRefueled.GivenName + " " + refuel.PersonThatRefueled.FamilyName);
                 lstRefuels.Items.Add(item);
+            }
+        }
+
+        private void InitializeListViewFuelTypes()
+        {
+            lstFuelTypes.View = View.Details;
+            lstFuelTypes.FullRowSelect = true;
+            lstFuelTypes.GridLines = true;
+
+            // Voeg kolommen toe aan de ListView
+            lstFuelTypes.Columns.Add("ID", 50);
+            lstFuelTypes.Columns.Add("Beschrijving", 120);
+        }
+
+        private void LoadFuelTypes()
+        {
+            List<FuelType> fuelTypes = FuelType.GetAll();
+            lstFuelTypes.Items.Clear();
+
+            foreach (var fuelType in fuelTypes)
+            {
+                ListViewItem item = new ListViewItem(fuelType.Id.ToString());
+                item.SubItems.Add(fuelType.Description);
+                lstFuelTypes.Items.Add(item);
             }
         }
 
@@ -90,16 +118,9 @@ namespace Gasolin.forms
             }
         }
 
+        private void lstRefuels_SelectedIndexChanged(object sender, EventArgs e) { }
 
-        private void lstRefuels_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lstRefuels_SelectedIndexChanged_1(object sender, EventArgs e)
-        {
-
-        }
+        private void lstRefuels_SelectedIndexChanged_1(object sender, EventArgs e) { }
 
         private void btnChange_Click(object sender, EventArgs e)
         {
@@ -126,5 +147,79 @@ namespace Gasolin.forms
             RefuelingForm form = new RefuelingForm();
             form.ShowDialog();
         }
+
+        private void btnRemoveFuel_Click(object sender, EventArgs e)
+        {
+            if (lstRefuels.SelectedItems.Count > 0)
+            {
+                int refuelId = int.Parse(lstRefuels.SelectedItems[0].Text);
+                var result = MessageBox.Show("Weet je zeker dat je deze tankbeurt wilt verwijderen?", "Bevestigen", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if (result == DialogResult.Yes)
+                {
+                    Refuel refuel = Refuel.GetAll().FirstOrDefault(r => r.Id == refuelId);
+                    if (refuel != null)
+                    {
+                        refuel.Delete();
+                        LoadRefuels();
+                        MessageBox.Show("Tankbeurt succesvol verwijderd!", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+            }
+            }
+
+        private void btnAddFuelType_Click(object sender, EventArgs e)
+        {
+            AddFuelType addFuelType = new AddFuelType();
+            addFuelType.ShowDialog();
+            this.Hide();
+            LoadFuelTypes();
+        }
+
+        private void btnChangeFuelType_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Dubbel klik op een record om hem te bewerken!", "Aanpassen");
+        }
+
+        private void lstFuelTypes_DoubleClick(object sender, EventArgs e)
+        {
+            if (lstFuelTypes.SelectedItems.Count > 0)
+            {
+                int fuelTypeId = int.Parse(lstFuelTypes.SelectedItems[0].Text);
+                FuelType fuelType = FuelType.GetAll().FirstOrDefault(r => r.Id == fuelTypeId);
+
+                if (fuelType != null)
+                {
+                    ChangeFuelType changeFuelType = new ChangeFuelType(fuelType);
+                    changeFuelType.Show();
+                }
+            }
+        }
+
+        private void btnRemoveFuelType_Click(object sender, EventArgs e)
+        {
+            if (lstFuelTypes.SelectedItems.Count > 0)
+            {
+                int fuelTypeId = int.Parse(lstFuelTypes.SelectedItems[0].Text);
+                var result = MessageBox.Show("Weet je zeker dat je deze brandstoftype wilt verwijderen?", "Bevestigen", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if (result == DialogResult.Yes)
+                {
+                    FuelType fuelType = FuelType.GetAll().FirstOrDefault(r => r.Id == fuelTypeId);
+                    if (fuelType != null)
+                    {
+                        fuelType.Delete();
+                        LoadFuelTypes();
+                        MessageBox.Show("Brandstoftype succesvol verwijderd!", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Selecteer een brandstoftype om te verwijderen.", "Fout", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void lstFuelTypes_SelectedIndexChanged(object sender, EventArgs e) { }
     }
 }

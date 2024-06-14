@@ -11,10 +11,16 @@ namespace Gasolin.models
         public int Id { get; set; }
         public string Description { get; set; }
 
-        public VehicleType(int id, string description)
+
+        public void Save()
         {
-            Id = id;
-            Description = description;
+            DAL.AddVehicleType(this);
         }
+
+        public static List<VehicleType> GetAll()
+        {
+            return DAL.GetAllVehicleTypes();
+        }
+
     }
 }

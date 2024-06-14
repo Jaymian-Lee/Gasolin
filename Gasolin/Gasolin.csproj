@@ -53,6 +53,12 @@
     <Compile Include="forms\AddCars.Designer.cs">
       <DependentUpon>AddCars.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\AddFuelType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\AddFuelType.Designer.cs">
+      <DependentUpon>AddFuelType.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\AddPerson.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,6 +71,12 @@
     <Compile Include="forms\AddRefueling.Designer.cs">
       <DependentUpon>AddRefueling.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\AddVehicleType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\AddVehicleType.Designer.cs">
+      <DependentUpon>AddVehicleType.cs</DependentUpon>
+    </Compile>
     <Compile Include="forms\CarsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +88,12 @@
     </Compile>
     <Compile Include="forms\ChangeCars.Designer.cs">
       <DependentUpon>ChangeCars.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\ChangeFuelType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\ChangeFuelType.Designer.cs">
+      <DependentUpon>ChangeFuelType.cs</DependentUpon>
     </Compile>
     <Compile Include="forms\ChangePerson.cs">
       <SubType>Form</SubType>
@@ -117,17 +135,26 @@
     <EmbeddedResource Include="forms\AddCars.resx">
       <DependentUpon>AddCars.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forms\AddFuelType.resx">
+      <DependentUpon>AddFuelType.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\AddPerson.resx">
       <DependentUpon>AddPerson.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\AddRefueling.resx">
       <DependentUpon>AddRefueling.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="forms\AddVehicleType.resx">
+      <DependentUpon>AddVehicleType.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="forms\CarsForm.resx">
       <DependentUpon>CarsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\ChangeCars.resx">
       <DependentUpon>ChangeCars.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\ChangeFuelType.resx">
+      <DependentUpon>ChangeFuelType.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="forms\ChangePerson.resx">
       <DependentUpon>ChangePerson.cs</DependentUpon>

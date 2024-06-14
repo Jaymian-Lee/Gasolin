@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 using Gasolin.models;
 
@@ -12,14 +13,23 @@ namespace Gasolin.forms
         {
             InitializeComponent();
             _vehicle = vehicle;
+            LoadVehicleTypes();
             LoadVehicleData();
+        }
+
+        private void LoadVehicleTypes()
+        {
+            List<VehicleType> vehicleTypes = VehicleType.GetAll();
+            cmbVehicleType.DataSource = vehicleTypes;
+            cmbVehicleType.DisplayMember = "Description";
+            cmbVehicleType.ValueMember = "Id";
         }
 
         private void LoadVehicleData()
         {
             txtLicensePlate.Text = _vehicle.LicensePlate;
             txtDescription.Text = _vehicle.Description;
-            txtCarType.Text = _vehicle.Type;
+            cmbVehicleType.SelectedValue = _vehicle.Type;
             txtConstructionDate.Text = _vehicle.ConstructionYear.ToString();
             txtPurchaseDate.Text = _vehicle.PurchaseDate.ToShortDateString();
             txtInitialKm.Text = _vehicle.InitialKm.ToString();
@@ -49,7 +59,6 @@ namespace Gasolin.forms
             DateTime parsedSaleDate = DateTime.MinValue; // Initialize parsedSaleDate here
             int initialKm;
             int active;
-            string fuel;
 
             if (!int.TryParse(txtConstructionDate.Text, out constructionYear))
             {
@@ -93,7 +102,7 @@ namespace Gasolin.forms
 
             _vehicle.LicensePlate = txtLicensePlate.Text;
             _vehicle.Description = txtDescription.Text;
-            _vehicle.Type = txtCarType.Text;
+            _vehicle.Type = cmbVehicleType.SelectedValue.ToString(); // Gebruik het geselecteerde voertuigtype
             _vehicle.ConstructionYear = constructionYear;
             _vehicle.PurchaseDate = purchaseDate;
             _vehicle.InitialKm = initialKm;
@@ -107,6 +116,11 @@ namespace Gasolin.forms
             _vehicle.Update();
 
             this.Close();
+        }
+
+        private void cmbVehicleType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

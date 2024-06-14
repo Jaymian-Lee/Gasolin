@@ -11,6 +11,8 @@ namespace Gasolin.forms
         {
             InitializeComponent();
             InitializeListView();
+            LoadVehicleType();
+            InitializeListViewVehicleType();
             LoadCars();
         }
 
@@ -30,7 +32,7 @@ namespace Gasolin.forms
 
         private void CarsButton_Click(object sender, EventArgs e)
         {
-   
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -111,6 +113,50 @@ namespace Gasolin.forms
 
                 selectedVehicle.Delete();
                 LoadCars();
+            }
+        }
+
+        private void btnAddVehicleType_Click(object sender, EventArgs e)
+        {
+            AddVehicleType addVehicleType = new AddVehicleType();
+            addVehicleType.Show();
+            this.Hide();
+        }
+
+        private void btnChangeVehicleType_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRemoveVehicleType_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lstVehicleType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void InitializeListViewVehicleType()
+        {
+            lstVehicleType.View = View.Details;
+            lstVehicleType.FullRowSelect = true;
+            lstVehicleType.Columns.Add("Id", 30, HorizontalAlignment.Left);
+            lstVehicleType.Columns.Add("Beschrijving", 140, HorizontalAlignment.Left);
+        }
+
+        private void LoadVehicleType()
+        {
+            lstVehicleType.Items.Clear();
+
+            List<VehicleType> vehicleTypes = VehicleType.GetAll();
+            foreach (var vehicleType in vehicleTypes)
+            {
+                ListViewItem item = new ListViewItem(vehicleType.Id.ToString());
+                item.SubItems.Add(vehicleType.Description);
+                item.Tag = vehicleType;
+                lstVehicleType.Items.Add(item);
             }
         }
     }
