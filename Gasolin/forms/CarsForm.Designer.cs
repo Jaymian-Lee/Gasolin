@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CarsForm));
             this.lstCars = new System.Windows.Forms.ListView();
             this.btnTank = new System.Windows.Forms.Button();
-            this.btnCars = new System.Windows.Forms.Button();
             this.btnPerson = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnAdd = new System.Windows.Forms.Button();
@@ -61,13 +60,6 @@
             this.btnTank.Text = "Tankbeurt";
             this.btnTank.UseVisualStyleBackColor = true;
             this.btnTank.Click += new System.EventHandler(this.btnTank_Click);
-            // 
-            // btnCars
-            // 
-            this.btnCars.Location = new System.Drawing.Point(0, 0);
-            this.btnCars.Name = "btnCars";
-            this.btnCars.Size = new System.Drawing.Size(75, 23);
-            this.btnCars.TabIndex = 19;
             // 
             // btnPerson
             // 
@@ -147,7 +139,6 @@
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.lstCars);
             this.Controls.Add(this.btnTank);
-            this.Controls.Add(this.btnCars);
             this.Controls.Add(this.btnPerson);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -162,7 +153,6 @@
 
         private System.Windows.Forms.ListView lstCars;
         private System.Windows.Forms.Button btnTank;
-        private System.Windows.Forms.Button btnCars;
         private System.Windows.Forms.Button btnPerson;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnAdd;

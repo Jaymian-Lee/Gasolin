@@ -20,6 +20,8 @@ namespace Gasolin
             InitializeComponent();
             InitializeListView(); // Initialiseer de ListView kolommen
             InitializeListViewCars(); // Initialiseer de ListView kolommen
+            InitializeListViewRefuels();
+            LoadRefuels();
             LoadPeople(); // Laad de mensenlijst direct na het initialiseren van de componenten
             LoadCars();
         }
@@ -121,7 +123,50 @@ namespace Gasolin
             }
         }
 
+
+        private void InitializeListViewRefuels()
+        {
+            lstTank.View = View.Details;
+            lstTank.FullRowSelect = true;
+            lstTank.GridLines = true;
+
+            // Voeg kolommen toe aan de ListView
+            lstTank.Columns.Add("ID", 50);
+            lstTank.Columns.Add("TimeStamp", 120);
+            lstTank.Columns.Add("Liters", 60);
+            lstTank.Columns.Add("CurrentKm", 80);
+            lstTank.Columns.Add("AmountEuro", 80);
+            lstTank.Columns.Add("LicensePlate", 100);
+            lstTank.Columns.Add("Person", 150);
+        }
+        private void LoadRefuels()
+        {
+            List<Refuel> refuels = Refuel.GetAll();
+            lstTank.Items.Clear();
+
+            foreach (var refuel in refuels)
+            {
+                ListViewItem item = new ListViewItem(refuel.Id.ToString());
+                item.SubItems.Add(refuel.TimeStamp.ToString());
+                item.SubItems.Add(refuel.Liters.ToString());
+                item.SubItems.Add(refuel.CurrentKm.ToString());
+                item.SubItems.Add(refuel.AmountEuro.ToString("C"));
+                item.SubItems.Add(refuel.RefueledVehicle.LicensePlate);
+                item.SubItems.Add(refuel.PersonThatRefueled.GivenName + " " + refuel.PersonThatRefueled.FamilyName);
+                lstTank.Items.Add(item);
+            }
+        }
         private void lstCars_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lstTank_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
         {
 
         }

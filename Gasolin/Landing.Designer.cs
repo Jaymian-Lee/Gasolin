@@ -81,6 +81,7 @@
             this.lstTank.Size = new System.Drawing.Size(253, 262);
             this.lstTank.TabIndex = 16;
             this.lstTank.UseCompatibleStateImageBehavior = false;
+            this.lstTank.SelectedIndexChanged += new System.EventHandler(this.lstTank_SelectedIndexChanged);
             // 
             // lstCars
             // 
@@ -146,13 +147,14 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
             // Landing
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(246)))), ((int)(((byte)(224)))));
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(812, 460);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

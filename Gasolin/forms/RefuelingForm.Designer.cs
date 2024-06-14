@@ -2,15 +2,11 @@
 {
     partial class RefuelingForm
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
+        private System.Windows.Forms.ListView lstRefuels;
+        private System.Windows.Forms.Button btnAddRefuel;
+        private System.Windows.Forms.PictureBox pictureBox1;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,142 +16,116 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
-
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RefuelingForm));
-            this.btnRemove = new System.Windows.Forms.Button();
-            this.btnUpdate = new System.Windows.Forms.Button();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.lstPeople = new System.Windows.Forms.ListView();
-            this.btnTank = new System.Windows.Forms.Button();
-            this.btnCars = new System.Windows.Forms.Button();
-            this.btnPerson = new System.Windows.Forms.Button();
+            this.lstRefuels = new System.Windows.Forms.ListView();
+            this.btnAddRefuel = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.CarsButton = new System.Windows.Forms.Button();
+            this.btnTank = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnChange = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnRemove
+            // lstRefuels
             // 
-            this.btnRemove.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRemove.Location = new System.Drawing.Point(644, 299);
-            this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(136, 54);
-            this.btnRemove.TabIndex = 34;
-            this.btnRemove.Text = "Verwijder";
-            this.btnRemove.UseVisualStyleBackColor = true;
+            this.lstRefuels.HideSelection = false;
+            this.lstRefuels.Location = new System.Drawing.Point(12, 176);
+            this.lstRefuels.Name = "lstRefuels";
+            this.lstRefuels.Size = new System.Drawing.Size(558, 262);
+            this.lstRefuels.TabIndex = 0;
+            this.lstRefuels.UseCompatibleStateImageBehavior = false;
+            this.lstRefuels.SelectedIndexChanged += new System.EventHandler(this.lstRefuels_SelectedIndexChanged_1);
+            this.lstRefuels.DoubleClick += new System.EventHandler(this.lstRefuels_DoubleClick);
             // 
-            // btnUpdate
+            // btnAddRefuel
             // 
-            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(644, 239);
-            this.btnUpdate.Name = "btnUpdate";
-            this.btnUpdate.Size = new System.Drawing.Size(136, 54);
-            this.btnUpdate.TabIndex = 33;
-            this.btnUpdate.Text = "Aanpassen";
-            this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnAddRefuel.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddRefuel.Location = new System.Drawing.Point(629, 176);
+            this.btnAddRefuel.Name = "btnAddRefuel";
+            this.btnAddRefuel.Size = new System.Drawing.Size(136, 54);
+            this.btnAddRefuel.TabIndex = 1;
+            this.btnAddRefuel.Text = "Voeg toe";
+            this.btnAddRefuel.UseVisualStyleBackColor = true;
+            this.btnAddRefuel.Click += new System.EventHandler(this.btnAddRefuel_Click);
             // 
-            // btnAdd
+            // pictureBox1
             // 
-            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(644, 179);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(136, 54);
-            this.btnAdd.TabIndex = 32;
-            this.btnAdd.Text = "Voeg toe";
-            this.btnAdd.UseVisualStyleBackColor = true;
+            this.pictureBox1.Image = global::Gasolin.Properties.Resources.Gasolin_Logo;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(140, 133);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // lstPeople
+            // CarsButton
             // 
-            this.lstPeople.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lstPeople.HideSelection = false;
-            this.lstPeople.Location = new System.Drawing.Point(26, 179);
-            this.lstPeople.Name = "lstPeople";
-            this.lstPeople.Size = new System.Drawing.Size(558, 262);
-            this.lstPeople.TabIndex = 31;
-            this.lstPeople.UseCompatibleStateImageBehavior = false;
-            this.lstPeople.SelectedIndexChanged += new System.EventHandler(this.lstPeople_SelectedIndexChanged);
+            this.CarsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CarsButton.Location = new System.Drawing.Point(487, 48);
+            this.CarsButton.Name = "CarsButton";
+            this.CarsButton.Size = new System.Drawing.Size(136, 54);
+            this.CarsButton.TabIndex = 23;
+            this.CarsButton.Text = "Cars";
+            this.CarsButton.UseVisualStyleBackColor = true;
+            this.CarsButton.Click += new System.EventHandler(this.CarsButton_Click);
             // 
             // btnTank
             // 
             this.btnTank.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTank.Location = new System.Drawing.Point(644, 51);
+            this.btnTank.Location = new System.Drawing.Point(629, 48);
             this.btnTank.Name = "btnTank";
             this.btnTank.Size = new System.Drawing.Size(136, 54);
-            this.btnTank.TabIndex = 30;
+            this.btnTank.TabIndex = 22;
             this.btnTank.Text = "Tankbeurt";
             this.btnTank.UseVisualStyleBackColor = true;
             this.btnTank.Click += new System.EventHandler(this.btnTank_Click);
             // 
-            // btnCars
+            // button1
             // 
-            this.btnCars.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCars.Location = new System.Drawing.Point(502, 51);
-            this.btnCars.Name = "btnCars";
-            this.btnCars.Size = new System.Drawing.Size(136, 54);
-            this.btnCars.TabIndex = 29;
-            this.btnCars.Text = "Auto\'s";
-            this.btnCars.UseVisualStyleBackColor = true;
-            this.btnCars.Click += new System.EventHandler(this.btnCars_Click);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(345, 48);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(136, 54);
+            this.button1.TabIndex = 21;
+            this.button1.Text = "Medewerkers";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btnPerson
+            // btnChange
             // 
-            this.btnPerson.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPerson.Location = new System.Drawing.Point(360, 51);
-            this.btnPerson.Name = "btnPerson";
-            this.btnPerson.Size = new System.Drawing.Size(136, 54);
-            this.btnPerson.TabIndex = 28;
-            this.btnPerson.Text = "Medewerkers";
-            this.btnPerson.UseVisualStyleBackColor = true;
-            this.btnPerson.Click += new System.EventHandler(this.btnPerson_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(20, 9);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 133);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 27;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.btnChange.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChange.Location = new System.Drawing.Point(629, 236);
+            this.btnChange.Name = "btnChange";
+            this.btnChange.Size = new System.Drawing.Size(136, 54);
+            this.btnChange.TabIndex = 24;
+            this.btnChange.Text = "Aanpassen";
+            this.btnChange.UseVisualStyleBackColor = true;
+            this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
             // 
             // RefuelingForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(246)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnRemove);
-            this.Controls.Add(this.btnUpdate);
-            this.Controls.Add(this.btnAdd);
-            this.Controls.Add(this.lstPeople);
+            this.Controls.Add(this.btnChange);
+            this.Controls.Add(this.CarsButton);
             this.Controls.Add(this.btnTank);
-            this.Controls.Add(this.btnCars);
-            this.Controls.Add(this.btnPerson);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Controls.Add(this.btnAddRefuel);
+            this.Controls.Add(this.lstRefuels);
             this.Name = "RefuelingForm";
-            this.Text = "Refueling";
+            this.Text = "Refueling Form";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
-        #endregion
-
-        private System.Windows.Forms.Button btnRemove;
-        private System.Windows.Forms.Button btnUpdate;
-        private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.ListView lstPeople;
+        private System.Windows.Forms.Button CarsButton;
         private System.Windows.Forms.Button btnTank;
-        private System.Windows.Forms.Button btnCars;
-        private System.Windows.Forms.Button btnPerson;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnChange;
     }
 }
